@@ -1,0 +1,83 @@
+.container-1{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 120px;
+}
+
+.container-2{
+display: flex;
+justify-content: center;
+text-align: center;
+padding-top: 56px;
+}
+
+.container-3{
+display: flex;
+justify-content: center;
+text-align: center;
+padding-top: 8px;
+}
+
+.container-4{
+display: flex;
+justify-content: center;
+text-align: center;
+padding-top: 20px;
+}
+
+.container-5{
+align-items: center;
+justify-content: center;
+display: flex;
+flex-direction: row;
+padding-top: 80px;
+gap: 15px;
+}
+
+.teth{
+  background-color:#878EA1;
+  height: 38px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;}
+
+.teth-1{
+  width: 114px;
+}
+
+.teth-2{
+width: 105px;
+}
+
+.teth-3{
+  width:92px;
+}
+
+.teth-4{
+  width: 138px ;
+}
+
+.teth-5{
+  width: 106px;
+}
+
+.teth-6{
+  width:119px ;
+}
+
+.tag{
+display: flex;
+
+align-items: center;
+text-align: center;
+}
+
+#introduçao{
+  background-image:url(/assets/Background_Intro.png);
+  background-size: cover;
+  height: 750px;
+  background-repeat: no-repeat;
+}
