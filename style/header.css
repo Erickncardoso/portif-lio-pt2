@@ -36,13 +36,15 @@ gap: 15px;
 }
 
 .teth{
-  background-color:#878EA1;
+  background-color:#292C34;
   height: 38px;
   border-radius: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;}
+  gap: 8px;
+color: white;
+}
 
 .teth-1{
   width: 114px;
@@ -70,9 +72,11 @@ width: 105px;
 
 .tag{
 display: flex;
-
+font-size: 14px;
+line-height: 140%;
 align-items: center;
 text-align: center;
+gap: 8px;
 }
 
 #introduçao{
@@ -81,3 +85,33 @@ text-align: center;
   height: 750px;
   background-repeat: no-repeat;
 }
+
+.span{
+  color: #E3646E;
+}
+
+h1{
+  color: #E2E4E9;
+  font-size: 56px;
+  line-height: 120%;
+}
+
+.intro-1{
+color: #878EA1;
+font-size: 20px;
+line-height: 120%;
+}
+
+.intro-2{
+  color: #878EA1;
+  line-height: 140%;
+  font-size: 14px;
+}
+
+.container-7{
+  display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 88px;
+}
+

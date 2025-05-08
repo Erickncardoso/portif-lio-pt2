@@ -1,0 +1,23 @@
+.img-main{
+max-width :100%;;
+height: auto;
+display: block;
+object-fit: cover;
+flex-wrap: wrap;
+max-width: 1000px;
+display: flex;
+margin: 0 ;
+object-fit: cover;
+}
+
+.grid{
+display: grid;
+flex-direction: column ;
+width: 100vh;
+grid-template-columns: repeat(3, 1fr);
+}
+
+.meio{
+ background-color:  #16181D;
+ 
+}
