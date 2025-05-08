@@ -1,20 +1,26 @@
-.img-main{
-max-width :100%;;
-height: auto;
-display: block;
-object-fit: cover;
-flex-wrap: wrap;
-max-width: 1000px;
-display: flex;
-margin: 0 ;
-object-fit: cover;
+body {
+overflow-x: hidden;
 }
 
-.grid{
+.img-main{
+width: 100%;
 display: grid;
-flex-direction: column ;
-width: 100vh;
 grid-template-columns: repeat(3, 1fr);
+gap: 24px;
+padding: 0 32px;
+box-sizing: border-box;
+}
+
+.img-main > div {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.img-main img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
 }
 
 .meio{
